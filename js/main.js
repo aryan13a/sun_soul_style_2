@@ -10,11 +10,11 @@ const DATA = {
     designerName: "Keshavi Gupta",
     tagline: "Warm, elevated spaces shaped by natural light and organic textures.",
     philosophy: "We believe a home should feel like an extension of the soul. Our design language merges tactile simplicity with confident refinement — balancing cream boucle textures, raw walnut wood, and warm Mediterranean tones.",
-    heroVideoUrl: "/assets/hero-video.mp4",
-    heroVideoUrlPortrait: "/assets/hero-mobile.mp4",
-    heroFallbackImg: "/assets/hero-interior.jpg",
+    heroVideoUrl: "assets/hero-video.mp4",
+    heroVideoUrlPortrait: "assets/hero-mobile.mp4",
+    heroFallbackImg: "assets/hero-interior.jpg",
     bio: "Inspired by Mediterranean architecture, natural textiles, and the quiet luxury of clean lines, Keshavi Gupta creates spaces that feel both elevated and deeply lived-in. Based in Jaipur, Rajasthan, her boutique studio specializes in high-end residential interiors that honor natural light, organic materials, and hand-crafted details.",
-    bioPhoto: "/assets/kp.png",
+    bioPhoto: "assets/kp.png",
     contactEmail: "hello@sunsoulstyle.com",
     contactPhone: "+91 70733 19692",
     studioLocation: "Jaipur, Rajasthan",
@@ -28,18 +28,18 @@ const DATA = {
       category: "Full Home",
       roomType: "full-home",
       style: "Mediterranean",
-      coverImage: "/assets/project-living.jpg",
+      coverImage: "assets/project-living.jpg",
       description: "A warm, light-filled sanctuary emphasizing organic shapes, custom walnut joinery, and soft plaster walls.",
       story: "Nestled in the foothills of Ojai, this 1970s Spanish-style home was reimagined as a peaceful, tactile retreat. We stripped back years of dark paint to expose raw wood ceilings, applied hand-textured limestone plaster to the walls, and integrated custom walnut cabinetry. By enlarging the windows and adding skylights, we flooded the interior with Ojai's legendary golden hour light.",
       materials: ["Raw walnut", "Cream Boucle", "Limestone plaster", "Terracotta tiles", "Hand-thrown ceramics"],
       palette: ["#FAF6F0", "#D9A05B", "#C86B55", "#5C4033"],
-      beforeImage: "/assets/project-before-living.jpg",
-      afterImage: "/assets/project-living.jpg",
+      beforeImage: "assets/project-before-living.jpg",
+      afterImage: "assets/project-living.jpg",
       gallery: [
-        "/assets/project-living.jpg",
-        "/assets/project-kitchen.jpg",
-        "/assets/project-bedroom.jpg",
-        "/assets/project-dining.jpg"
+        "assets/project-living.jpg",
+        "assets/project-kitchen.jpg",
+        "assets/project-bedroom.jpg",
+        "assets/project-dining.jpg"
       ],
       featured: true,
       order: 1
@@ -50,16 +50,16 @@ const DATA = {
       category: "Kitchen",
       roomType: "kitchen",
       style: "Minimalist",
-      coverImage: "/assets/project-kitchen.jpg",
+      coverImage: "assets/project-kitchen.jpg",
       description: "An elegant culinary workspace designed with solid walnut cabinets, honed marble, and minimalist details.",
       story: "For this kitchen, we focused on the beauty of grain continuity and minimal hardware. The solid walnut cabinetry is offset by thick slabs of Arabescato marble. Integrated appliances and custom pull-outs keep the lines clean, while a centered skylight keeps the workspace bright throughout the day.",
       materials: ["Solid Walnut", "Honed Arabescato Marble", "Brushed Brass", "Plaster Hood"],
       palette: ["#FFFDFB", "#2A2421", "#5C4033", "#D9A05B"],
       beforeImage: "",
-      afterImage: "/assets/project-kitchen.jpg",
+      afterImage: "assets/project-kitchen.jpg",
       gallery: [
-        "/assets/project-kitchen.jpg",
-        "/assets/project-dining.jpg"
+        "assets/project-kitchen.jpg",
+        "assets/project-dining.jpg"
       ],
       featured: true,
       order: 2
@@ -70,16 +70,16 @@ const DATA = {
       category: "Bedroom",
       roomType: "bedroom",
       style: "Rustic Modern",
-      coverImage: "/assets/project-bedroom.jpg",
+      coverImage: "assets/project-bedroom.jpg",
       description: "A cozy, grounding bedroom utilizing earthy terracotta accent colors, raw linen, and rattan textures.",
       story: "Designed as an intimate escape, this master bedroom pairs custom linen drapery with plaster walls tinted a very soft sand. Terracotta accents in the bedding and hand-made ceramics ground the space, while a vintage rattan armchair and a rustic wood stool add rich texture and warmth.",
       materials: ["Raw Linen", "Rattan", "Earthy Plaster", "Ebonized Oak"],
       palette: ["#FAF6F0", "#C86B55", "#8E7259", "#2A2421"],
       beforeImage: "",
-      afterImage: "/assets/project-bedroom.jpg",
+      afterImage: "assets/project-bedroom.jpg",
       gallery: [
-        "/assets/project-bedroom.jpg",
-        "/assets/project-living.jpg"
+        "assets/project-bedroom.jpg",
+        "assets/project-living.jpg"
       ],
       featured: true,
       order: 3
@@ -90,16 +90,16 @@ const DATA = {
       category: "Dining Room",
       roomType: "dining-room",
       style: "Coastal Modern",
-      coverImage: "/assets/project-dining.jpg",
+      coverImage: "assets/project-dining.jpg",
       description: "A bright, airy dining space centered around an organic curved oak table and natural woven lighting.",
       story: "Our goal was to create a space that inspires long, slow meals. We custom-designed the organic curved dining table in local oak, pairing it with linen-upholstered chairs. A large woven rattan pendant casts a soft, textured glow, while tall French doors open to an olive tree courtyard, blending the outdoors with the inside.",
       materials: ["Local Oak", "Woven Rattan", "Belgian Linen", "Travertine Stone"],
       palette: ["#FFFDFB", "#8E7259", "#D9A05B", "#FAF6F0"],
       beforeImage: "",
-      afterImage: "/assets/project-dining.jpg",
+      afterImage: "assets/project-dining.jpg",
       gallery: [
-        "/assets/project-dining.jpg",
-        "/assets/project-kitchen.jpg"
+        "assets/project-dining.jpg",
+        "assets/project-kitchen.jpg"
       ],
       featured: false,
       order: 4
